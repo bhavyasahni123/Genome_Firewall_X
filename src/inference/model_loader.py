@@ -7,7 +7,7 @@ class ModelLoader:
 
     def __init__(self):
 
-        self.model_dir = Path("outputs/models")
+        self.model_dir = Path("models")
 
         with open(self.model_dir / "model_registry.json") as f:
             self.registry = json.load(f)

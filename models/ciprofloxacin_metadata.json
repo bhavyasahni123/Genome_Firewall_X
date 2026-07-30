@@ -1,0 +1,13 @@
+{
+    "model_name": "ciprofloxacin",
+    "version": "1.0.0",
+    "algorithm": "XGBoost",
+    "feature_count": 832,
+    "training_samples": 4008,
+    "accuracy": 0.8591022443890274,
+    "precision": 0.8241379310344827,
+    "recall": 0.7940199335548173,
+    "f1": 0.8087986463620981,
+    "roc_auc": 0.9114926293592218,
+    "threshold": 0.5
+}

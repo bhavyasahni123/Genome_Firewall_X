@@ -1,0 +1,30 @@
+{
+    "version": "1.0.0",
+    "models": {
+        "ampicillin": {
+            "model_path": "models/ampicillin.pkl",
+            "feature_count": 832,
+            "threshold": 0.5
+        },
+        "cefotaxime": {
+            "model_path": "models/cefotaxime.pkl",
+            "feature_count": 832,
+            "threshold": 0.5
+        },
+        "ciprofloxacin": {
+            "model_path": "models/ciprofloxacin.pkl",
+            "feature_count": 832,
+            "threshold": 0.5
+        },
+        "gentamicin": {
+            "model_path": "models/gentamicin.pkl",
+            "feature_count": 832,
+            "threshold": 0.5
+        },
+        "meropenem": {
+            "model_path": "models/meropenem.pkl",
+            "feature_count": 832,
+            "threshold": 0.5
+        }
+    }
+}

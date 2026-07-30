@@ -18,7 +18,7 @@ from sklearn.metrics import (
 )
 
 LABEL_DIR = Path("outputs/labels")
-MODEL_DIR = Path("outputs/models")
+MODEL_DIR = Path("models")
 REPORT_DIR = Path("outputs/reports")
 
 MODEL_DIR.mkdir(parents=True, exist_ok=True)

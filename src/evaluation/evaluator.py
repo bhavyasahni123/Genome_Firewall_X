@@ -9,7 +9,7 @@ from src.evaluation.metrics import compute_metrics
 
 
 LABEL_DIR = Path("outputs/labels")
-MODEL_DIR = Path("outputs/models")
+MODEL_DIR = Path("models")
 OUTPUT_DIR = Path("outputs/evaluation")
 
 OUTPUT_DIR.mkdir(

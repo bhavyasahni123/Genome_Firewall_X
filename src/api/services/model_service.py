@@ -6,7 +6,7 @@ class ModelService:
 
     def __init__(self):
 
-        self.model_dir = Path("outputs/models")
+        self.model_dir = Path("models")
 
     def get_models(self):
 

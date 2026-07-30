@@ -1,0 +1,13 @@
+{
+    "model_name": "meropenem",
+    "version": "1.0.0",
+    "algorithm": "XGBoost",
+    "feature_count": 832,
+    "training_samples": 3244,
+    "accuracy": 0.9583975346687211,
+    "precision": 0.3333333333333333,
+    "recall": 0.6875,
+    "f1": 0.4489795918367347,
+    "roc_auc": 0.9223439968404423,
+    "threshold": 0.5
+}

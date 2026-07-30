@@ -1,0 +1,13 @@
+{
+    "model_name": "gentamicin",
+    "version": "1.0.0",
+    "algorithm": "XGBoost",
+    "feature_count": 832,
+    "training_samples": 4054,
+    "accuracy": 0.967940813810111,
+    "precision": 0.9078014184397163,
+    "recall": 0.9078014184397163,
+    "f1": 0.9078014184397163,
+    "roc_auc": 0.9792156240076214,
+    "threshold": 0.5
+}
