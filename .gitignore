@@ -1,28 +1,38 @@
 
 __pycache__/
-*.pyc
+*.py[cod]
 *.pyo
 *.pyd
 
+
 venv/
-.env/
+.venv/
+env/
+
+
+.env
+
+
 .conda/
 
 
 .vscode/
+.idea/
 
 
 .ipynb_checkpoints/
 
 
 logs/
+*.log
 
 
-outputs/temp/
+outputs/
+uploads/
 
-
-outputs/amrfinder/genome_*/
 
 .pytest_cache/
 
+
 .DS_Store
+Thumbs.db
