@@ -7,6 +7,7 @@ import pandas as pd
 class FeatureEngine:
 
     def __init__(self):
+        self.feature_dir = Path("features")
 
         self.input_dir = Path("outputs/amrfinder")
 
@@ -18,7 +19,7 @@ class FeatureEngine:
         )
 
         with open(
-            self.output_dir / "feature_dictionary.json"
+            self.feature_dir / "feature_dictionary.json"
         ) as f:
 
             d = json.load(f)
