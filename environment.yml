@@ -1,0 +1,13 @@
+name: genomefirewall
+
+channels:
+  - conda-forge
+  - bioconda
+
+dependencies:
+  - python=3.11
+  - ncbi-amrfinderplus=4.2.7
+  - pip
+
+  - pip:
+      - -r requirements.txt
